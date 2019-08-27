@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>title</title>
+    <script id="calc" type="text/javascript" src="calc.js"></script>
   </head>
   <body>
       <header>
-          
+          GET DRUNK CHEAP
       </header>
       <div>
-          <form>
-              <input type="text" name="drink"/>
-              <input type="submit" value="Submit"/>
+          <form id = "calcForm">
+              <input type="text" name="name" placeholder="Drink Type" />
+              <input type="value" name="abv" placeholder="ABV">
+              <input type="value" name="vol" placeholder="Volume in oz">
+              <input type="value" name="cost" placeholder="Price">
+              
           </form>
+          <button onclick="calculator()">Get me drunk, cheap!</button>
+
       </div>
+      <p id = "result"></p>
   
   </body>
 </html>
