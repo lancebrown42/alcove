@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>title</title>
     <script id="calc" type="text/javascript" src="calc.js"></script>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.css">
   </head>
   <body>
-      <header>
+      <header class = "hero title is-bold is-success">
           GET DRUNK CHEAP
       </header>
       <div>
@@ -17,10 +18,10 @@
               <input type="value" name="cost" placeholder="Price">
               
           </form>
-          <button onclick="calculator()">Get me drunk, cheap!</button>
+          <button  onclick="calculator()" class = "button is-danger is-hoverable is-rounded">Get me drunk, cheap!</button>
 
       </div>
-      <p id = "result"></p>
+      <p id = "result" class = "subtitle is-bold"></p>
   
   </body>
 </html>
