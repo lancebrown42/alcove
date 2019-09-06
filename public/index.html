@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <title>title</title>
     <script id="calc" type="text/javascript" src="calc.js"></script>
-    <link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/16.9.0/cjs/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
   </head>
   <body>
       <header class = "hero title is-bold is-success">
-          GET DRUNK CHEAP
+          THIS IS A TEST
       </header>
-      <div>
+
+      <div id="formContainer"></div>
+      <!--
+      <div class = "input_fields_wrap">
           <form id = "calcForm">
               <input type="text" name="name" placeholder="Drink Type" />
               <input type="value" name="abv" placeholder="ABV">
@@ -18,10 +23,12 @@
               <input type="value" name="cost" placeholder="Price">
               
           </form>
-          <button  onclick="calculator()" class = "button is-danger is-hoverable is-rounded">Get me drunk, cheap!</button>
+          <button  onclick="calculator()" class = "button is-danger is-hoverable is-rounded">DO IT</button>
 
+      <button class = "add_field_button button is-warning is-hoverable is-rounded">Add another option</button>
       </div>
+      -->
       <p id = "result" class = "subtitle is-bold"></p>
-  
+      <script type="text/javascript" src="form.js"></script>
   </body>
 </html>

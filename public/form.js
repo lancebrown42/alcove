@@ -1,16 +1,21 @@
 import React from "react";
-class Form extends React.Component {
+const Form = () => {
 
-	render(){
+	
 		return(
 			<form>
               		<input type="text" name="name" placeholder="Drink Type" />
-              		<input type="value" name="abv" placeholder="ABV">
-              		<input type="value" name="vol" placeholder="Volume in oz">
-              		<input type="value" name="cost" placeholder="Price">
-              
-          	</form>
+              		<input type="value" name="abv" placeholder="ABV"/>
+              		<input type="value" name="vol" placeholder="Volume in oz"/>
+              		<input type="value" name="cost" placeholder="Price"/>
+              		<input type="button" value = "Add another option" />
+              		<input type="submit" name="submit"/>
+      		</form>
+      		
+          	
 
 			)
-	}
+	
 }
+
+export default Form;

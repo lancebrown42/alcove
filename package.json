@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lancebrown42/alcove/issues"
   },
-  "homepage": "https://github.com/lancebrown42/alcove#readme"
+  "homepage": "https://github.com/lancebrown42/alcove#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "react": "^16.9.0"
+  }
 }
